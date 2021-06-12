@@ -21,6 +21,7 @@ class PostListViewModel: ObservableObject {
         }
     }
     
+    //MARK: - [New] async await
     func fetchData() async {
         print("fetch data called")
         guard let url = url else {
